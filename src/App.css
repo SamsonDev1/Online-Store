@@ -34,6 +34,11 @@ body {
 	cursor: pointer;
 }
 
+.home-page {
+	color: #103c4a;
+  text-decoration: none;
+}
+
 .vertical-line {
 	width: 2px;
 	height: 50px;

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">StrideSavvy</div>
+      <div className="navbar-brand"><Link className='home-page' to='/'>StrideSavvy</Link></div>
       <div className="navbar-links">
         <img src={icon}  alt='icon' />
         <span>Hi, Pedro</span>
